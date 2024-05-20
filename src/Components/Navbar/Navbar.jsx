@@ -19,7 +19,7 @@ const Navbar = () => {
   }
 
   const handleDownload = () => {
-    const url = '../../../public/cv.pdf';
+    const url = 'cv.pdf';
     const link = document.createElement('a');
     link.href = url;
     link.setAttribute('download', 'cv.pdf');
