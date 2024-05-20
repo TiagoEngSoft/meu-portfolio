@@ -22,7 +22,7 @@ const Navbar = () => {
     const url = '../../../public/cv.pdf';
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'cv.docx');
+    link.setAttribute('download', 'cv.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
