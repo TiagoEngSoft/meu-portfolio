@@ -54,7 +54,7 @@ const Contact = () => {
             </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-          <input type="hidden" name="access_key" value="d4bb13f1-2504-4f56-918e-9a6639547c40">
+          <input type="hidden" name="access_key" value="d4bb13f1-2504-4f56-918e-9a6639547c40" />
             <label htmlFor="">Nome</label>
             <input type="text" placeholder='Seu nome' name='name' />
             <label htmlFor="">Email</label>
