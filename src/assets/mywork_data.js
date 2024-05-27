@@ -9,7 +9,7 @@ const mywork_data = [
     {
         w_no:1,
         w_name:"React Js",
-        w_img:imageco,
+        w_img:painel,
         url: "https://meu-painel-gestao-31d130a43c13.herokuapp.com/dashboard"
     },
     {
@@ -23,12 +23,7 @@ const mywork_data = [
         w_name:"ReactJs Express Mongo",
         w_img:getPet,
         url: "https://front-get-pet-5555d9e1cb20.herokuapp.com/"
-    },
-    {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project4_img
-    },
+    }
 ]
  
 export default mywork_data;
